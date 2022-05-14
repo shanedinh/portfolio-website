@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #fff;
+    color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -91,7 +91,7 @@ header nav ul li a {
 }
 
 .hero-hello {
-    width:400px;
+    width: 400px;
     height: 100px;
     margin: 3.5%;
     text-align: left;
@@ -107,8 +107,41 @@ header nav ul li a {
 .hero-hello p {
     font-style: lighter;
     font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #A1CCA5;
 }
 
 section {
     padding: 5px;
+}
+
+.about-me {
+    background-color: #415D43;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.about-me h3 {
+    color: #A1CCA5;
+    font-size: 43px;
+    text-align: right;
+    width: 500px;
+    height: 220px;
+    padding-top: 22px;
+    border-bottom: 1.5px solid #A1CCA5;
+}
+
+.about-me p {
+    color: #A1CCA5;
+    text-align: left;
+    line-height: 1.5;
+    width: 40%;
+    margin: 3%;
+}
+
+.my-work {
+    background-color: #111D13;
 }
