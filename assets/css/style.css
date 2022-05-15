@@ -1,6 +1,6 @@
 :root {
-    --primary-color: ;
-    --secondary-color: ;
+    --primary-color: #415D43;
+    --secondary-color: #A1CCA5;
     --tertiary-color: ;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #415D43;
+    background-color: var(--primary-color);
     background-size: cover;
     background-attachment: fixed;
     padding: 20px 35px;
@@ -31,7 +31,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 30px;
-    color: #A1CCA5;
+    color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(0, 0 ,0 0.5);
 }
 
@@ -61,7 +61,7 @@ header nav ul li a {
 .link {
     margin-block: 2px;
     text-decoration: none;
-    color: #A1CCA5;
+    color: var(--secondary-color);
     position: relative;
 }
 
@@ -101,7 +101,7 @@ img {
     height: 100px;
     margin: 3.5%;
     text-align: left;
-    color: #A1CCA5;
+    color: var(--secondary-color);
     font-size: 30px;
 }
 
@@ -114,7 +114,7 @@ img {
     font-size: 20px;
     padding-bottom: 10px;
     line-height: 1.5;
-    border-bottom: 1px solid #A1CCA5;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 section {
@@ -122,7 +122,7 @@ section {
 }
 
 .about-me {
-    background-color: #415D43;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -131,18 +131,18 @@ section {
 }
 
 .about-me h3 {
-    color: #A1CCA5;
+    color: var(--secondary-color);
     font-size: 43px;
     text-align: right;
     width: 500px;
     height: 220px;
     padding-top: 24px;
     margin: 10px;
-    border-bottom: 1.5px solid #A1CCA5;
+    border-bottom: 1.5px solid var(--secondary-color);
 }
 
 .about-me p {
-    color: #A1CCA5;
+    color: var(--secondary-color);
     text-align: left;
     line-height: 1.8;
     width: 40%;
@@ -153,7 +153,7 @@ section {
 /* projects styling */ 
 
 .projects h4 {
-    color:#A1CCA5;
+    color:var(--secondary-color);
     font-size: 43px;
     text-align: center;
     margin: 20px;
@@ -167,7 +167,7 @@ section {
 .image-container img {
     width: 80%;
     height: auto;
-    background-color:#415D43;
+    background-color:var(--primary-color);
     flex-wrap: wrap;
     padding: 10px;
     margin: 5px;
@@ -187,13 +187,13 @@ section {
   }
 
 .contact-me {
-    background-color: #415D43;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
 }
 
 .contact-me h3 {
-    color: #A1CCA5;
+    color: var(--secondary-color);
     font-size: 43px;
     text-align: right;
     width: 500px;
@@ -202,13 +202,13 @@ section {
 }
 
 .contact-me p {
-    color: #A1CCA5;
+    color: var(--secondary-color);
     text-align: left;
     margin: 3%;
 }
 
 .email {
-    color: #A1CCA5;
+    color: var(--secondary-color);
 }
 .email:hover {
     color: #F4F4F9;
@@ -239,19 +239,19 @@ section {
     opacity: .5;
   }
 
-#second-image:hover {
+#second-project:hover {
     opacity: .5;
   }
 
-#third-image:hover {
+#third-project:hover {
     opacity: .5;
   }
 
-#fourth-image:hover {
+#fourth-project:hover {
     opacity: .5;
   }
 
-#fifth-image:hover {
+#fifth-project:hover {
     opacity: .5;
   }
 
