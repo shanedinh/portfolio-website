@@ -15,6 +15,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* header styling start */
+
 header {
     background-color: var(--primary-color);
     background-size: cover;
@@ -24,6 +26,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     z-index: 9999;
 }
@@ -83,6 +86,10 @@ header nav ul li a {
     transform: scaleX(1);
 }
 
+/* header styling end */
+
+/* hero styling start */
+
 img {
     max-width: 100%;
     height: auto;
@@ -121,6 +128,10 @@ section {
     padding: 5px;
 }
 
+/* hero styling end */
+
+/* about me styling start */
+
 .about-me {
     background-color: var(--primary-color);
     display: flex;
@@ -149,6 +160,7 @@ section {
     margin: 3%;
 }
 
+/* about me styling end */
 
 /* projects styling */ 
 
@@ -162,6 +174,12 @@ section {
 
 .projects {
     background-color: #111D13;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .image-container img {
@@ -182,9 +200,13 @@ section {
 .project-img {
     position: relative;
     display: flex;
-    flex: 2;
+    flex: 1;
     text-align: center;
   }
+
+/* project styling end */
+
+/* footer/contact me styling */
 
 .contact-me {
     background-color: var(--primary-color);
@@ -192,7 +214,7 @@ section {
     justify-content: center;
 }
 
-.contact-me h3 {
+.contact-me h5 {
     color: var(--secondary-color);
     font-size: 43px;
     text-align: right;
@@ -213,6 +235,10 @@ section {
 .email:hover {
     color: #F4F4F9;
 }
+
+/* contact styling end */
+
+/* project image effects */
 
 #run-buddy {
     border: 5px solid #709775;
@@ -255,6 +281,33 @@ section {
     opacity: .5;
   }
 
+/* code below sampled from internet, need to adjust still */
+
+.title {
+    background-color: rgb(0, 0, 0, 0.5);
+/*positioned relative to parent div (container) */
+    position: absolute;    
+/* bottom margin is 0 so that it 
+coincides with container's bottom margin*/
+    bottom: 0;             
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 0;
+    text-align: center;
+    /*invisible because opacity is 0*/
+    opacity: 0;            
+    transition: 0.6s;
+}
+
+.image-container:hover .title {
+/*becomes visible on hover*/ 
+    opacity: 1;          
+}
+
+/* end project image effects */
+
+/* flex row display */
 .flex-row {
     display: flex;
 }
