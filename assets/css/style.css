@@ -30,10 +30,11 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     color: #A1CCA5;
     text-shadow: 0 0 10px rgba(0, 0 ,0 0.5);
 }
+
 header a {
     text-decoration: none;
     color: #F4F4F9;
@@ -185,27 +186,74 @@ section {
     text-align: center;
   }
 
+.contact-me {
+    background-color: #415D43;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me h3 {
+    color: #A1CCA5;
+    font-size: 43px;
+    text-align: right;
+    width: 500px;
+    height: 100px;
+    padding-top: 24px;
+}
+
+.contact-me p {
+    color: #A1CCA5;
+    text-align: left;
+    margin: 3%;
+}
+
+.email {
+    color: #A1CCA5;
+}
+.email:hover {
+    color: #F4F4F9;
+}
 
 #run-buddy {
     border: 5px solid #709775;
 }
 
-#second-image {
+#second-project {
     border: 5px solid #709775;
 }
 
-#third-image {
+#third-project {
     border: 5px solid #709775;
 }
 
-#fourth-image {
+#fourth-project {
     border: 5px solid #709775;
 }
 
-#fifth-image {
+#fifth-project {
     border: 5px solid #709775;
 }
 
+
+#run-buddy:hover {
+    opacity: .5;
+  }
+
+#second-image:hover {
+    opacity: .5;
+  }
+
+#third-image:hover {
+    opacity: .5;
+  }
+
+#fourth-image:hover {
+    opacity: .5;
+  }
+
+#fifth-image:hover {
+    opacity: .5;
+  }
 
 .flex-row {
     display: flex;
